@@ -8,7 +8,12 @@ const Icon = ({ color }) => {
       viewBox="0 0 841.9 595.3"
       enableBackground="new 0 0 841.9 595.3"
       style={{
-        width: "100px"
+        width: "100px",
+        border: "2px solid",
+        borderColor: color,
+        borderRadius: "50%",
+        margin: "10px",
+        padding: "8px 0"
       }}
     >
       <g>
